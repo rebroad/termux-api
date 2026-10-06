@@ -69,6 +69,8 @@
         android:theme="@android:style/Theme.Material.Light"
         tools:ignore="GoogleAppIndexingWarning">
 
+        <meta-data android:name="com.termux.GIT_COMMIT" android:value="${TERMUX_GIT_COMMIT}" />
+
         <activity
             android:name=".activities.TermuxAPIMainActivity"
             android:exported="true"
